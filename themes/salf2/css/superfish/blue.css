@@ -1,0 +1,164 @@
+.sf-menu.sf-style-blue {
+  float: left;
+  margin-bottom: 1em;
+  padding: 0;
+}
+
+.sf-menu.sf-style-blue.sf-navbar {
+  width: 100%;
+}
+.sf-menu.sf-style-blue ul {
+  padding-left: 0;
+}
+
+.sf-menu.sf-style-blue ul.menu {
+	font-size: 1.1em;
+}
+.sf-menu.sf-style-blue a {
+  border: 1px outset #1ea4ca;
+  color: #fff;
+  padding: 0.75em 1em;
+  white-space: nowrap;
+}
+.sf-menu.sf-style-blue a.sf-with-ul {
+  padding-right: 2.25em;
+}
+.sf-menu.sf-style-blue.rtl a.sf-with-ul {
+  padding-left: 2.25em;
+  padding-right: 1em;
+}
+.sf-menu.sf-style-blue.sf-navbar a {
+  border: 0;
+}
+.sf-menu.sf-style-blue span.sf-description {
+  color: #13a;
+  display: block;
+  font-size: 1.1em;
+  line-height: 1.5em;
+  margin: 5px 0 0 5px;
+  padding: 0;
+}
+.sf-menu.sf-style-blue li,
+.sf-menu.sf-style-blue.sf-navbar {
+  background: #19191A;
+}
+.sf-menu.sf-style-blue li li {
+  background: #19191A;
+}
+.sf-menu.sf-style-blue li li li {
+  background: #19191A;
+}
+.sf-menu.sf-style-blue li:hover,
+.sf-menu.sf-style-blue li.sfHover,
+.sf-menu.sf-style-blue li.active a,
+.sf-menu.sf-style-blue a:focus,
+.sf-menu.sf-style-blue a:hover,
+.sf-menu.sf-style-blue a:active,
+.sf-menu.sf-style-blue.sf-navbar li li {
+  background: #19191A;
+  color: #1ea4ca;
+}
+
+.sf-sub-indicator {
+  background: url('../images/arrows-777777.png') no-repeat -10px -100px;
+  display: block;
+  height: 10px;
+  overflow: hidden;
+  position: absolute;
+  right: 0.75em;
+  text-indent: -999em;
+  top: 1.05em;
+  width: 10px;
+}
+
+a > .sf-sub-indicator {
+  top: 0.8em;
+  background-position: 0 -100px;
+}
+a:focus > .sf-sub-indicator,
+a:hover > .sf-sub-indicator,
+a:active > .sf-sub-indicator,
+li:hover > a > .sf-sub-indicator,
+li.sfHover > a > .sf-sub-indicator {
+  background-position: -10px -100px;
+}
+.sf-menu ul .sf-sub-indicator {
+  background-position: -10px 0;
+}
+.sf-menu ul a > .sf-sub-indicator {
+  background-position: 0 0;
+}
+.sf-menu ul a:focus > .sf-sub-indicator,
+.sf-menu ul a:hover > .sf-sub-indicator,
+.sf-menu ul a:active > .sf-sub-indicator,
+.sf-menu ul li:hover > a > .sf-sub-indicator,
+.sf-menu ul li.sfHover > a > .sf-sub-indicator {
+  background-position: -10px 0;
+}
+.sf-shadow ul {
+  background: url('../images/shadow.png') no-repeat bottom right;
+  padding: 0 8px 9px 0;
+  -moz-border-radius-bottomleft: 17px;
+  -moz-border-radius-topright: 17px;
+  -webkit-border-top-right-radius: 17px;
+  -webkit-border-bottom-left-radius: 17px;
+}
+.sf-shadow ul.sf-shadow-off {
+  background: transparent;
+}
+
+
+.sf-menu.sf-style-blue.sf-navbar li ul {
+  background-color: #000;
+}
+.sf-menu.sf-style-blue.sf-navbar li ul li ul {
+  background-color: transparent;
+}
+.sf-menu.sf-style-blue ul.sf-megamenu li.sf-megamenu-wrapper ol,
+.sf-menu.sf-style-blue ul.sf-megamenu li.sf-megamenu-wrapper ol li {
+	margin: 0;
+	padding: 0;
+}
+.sf-menu.sf-style-blue ul.sf-megamenu li.sf-megamenu-wrapper a.menuparent {
+	font-weight: bold;
+}
+.sf-menu.sf-style-blue ul.sf-megamenu li.sf-megamenu-wrapper ol li.sf-megamenu-column {
+	display: inline;
+	float: left;
+	width: 12em;
+	
+}
+.sf-menu.sf-style-blue.rtl ul.sf-megamenu li.sf-megamenu-wrapper ol li.sf-megamenu-column {
+	float: right;
+}
+.sf-menu.sf-style-blue li.sf-parent-children-1 ul.sf-megamenu {
+	width: 12em;
+	
+}
+.sf-menu.sf-style-blue li.sf-parent-children-2 ul.sf-megamenu {
+	width: 24em;
+}
+.sf-menu.sf-style-blue li.sf-parent-children-3 ul.sf-megamenu {
+	width: 36em;
+}
+.sf-menu.sf-style-blue li.sf-parent-children-4 ul.sf-megamenu {
+	width: 48em;
+}
+.sf-menu.sf-style-blue li.sf-parent-children-5 ul.sf-megamenu {
+	width: 60em;
+}
+.sf-menu.sf-style-blue li.sf-parent-children-6 ul.sf-megamenu {
+	width: 72em;
+}
+.sf-menu.sf-style-blue li.sf-parent-children-7 ul.sf-megamenu {
+	width: 84em;
+}
+.sf-menu.sf-style-blue li.sf-parent-children-8 ul.sf-megamenu {
+	width: 96em;
+}
+.sf-menu.sf-style-blue li.sf-parent-children-9 ul.sf-megamenu {
+	width: 108em;
+}
+.sf-menu.sf-style-blue li.sf-parent-children-10 ul.sf-megamenu {
+	width: 120em;
+}

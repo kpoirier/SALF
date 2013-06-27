@@ -1,0 +1,460 @@
+
+/*--- HEADINGS ---*/
+h1{
+  font-size:1.846em;      /* 24px */
+  margin-bottom:1em;  /* 24px */
+  line-height:1;    /* 24px */
+}
+h2{
+  font-size:1.4em;    /* 19.5px */
+  margin-bottom:1.3333em;    /* 24px */
+  line-height:1.3333;      /* 24px */
+}
+h3{
+  font-size:1.25em;    /* 16.25 */
+  margin-bottom:1.477em;  /* 24px */
+  line-height:1.477;    /* 24px */
+}
+h4{
+  font-size:1.125em;    /* 14.6px */
+  margin-bottom:1.64em;  /* 24px */
+  line-height:1.64;    /* 24px */
+}
+h5{
+  font-weight:bold;
+}
+h5,
+h6{
+  font-size:1em;      /* 16px */
+  margin-bottom:1.5em;  /* 24px */
+  line-height:1.5;    /* 24px */
+}
+p, address, pre, table {
+    margin-bottom: 1.846em;
+}
+
+
+/* Odd & Even Table Styles */
+tr.even td {
+  background: #364351;
+}
+
+tr.odd td {
+  background: #364351;
+}
+
+td.active {
+  border-left: 1px solid #CCC;
+  border-right: 1px solid #CCC;
+}
+
+tr.even td.active {
+  background: #364351;
+}
+
+tr.odd td.active {
+  background: #364351;
+}
+
+.view-calendar-2 tr:hover td,
+tr.even:hover td.active,
+tr.odd:hover td.active {
+  background-color: white;
+}
+
+td ul.links {
+  margin-bottom: 0;
+}
+
+
+
+a:link, a:visited {
+    color: #17A1C8;
+    text-decoration: none;
+}
+
+#navigation {
+	color: #FFFFFF;
+}
+
+#page {
+	background: #fff;
+	
+}
+
+/*
+ * Main menu links
+ */
+
+ul#main-menu {
+  margin: 10px 0 0 0;
+  text-align: center;
+  width: 100%;
+}
+ul#main-menu li {
+  display: inline-block;
+  margin:0;
+  padding:0 1px 0 0;
+}
+ul#main-menu li a {
+  float: left;
+  padding: 3px 30px;
+  font-weight: bold;
+}
+ul#main-menu li a:hover,
+ul#main-menu li a.active:hover {
+  color: #fff;
+  background: #076782;
+}
+ul#main-menu li a.active {
+  color: #fff;
+  background: #17A1C8;
+}
+
+#zone-user-wrapper {
+background:#182732 url(../images/wp_header_bg.jpg) repeat-x scroll left top;
+}
+
+#zone-user {
+	background: #1E2832 url(../images/header_bg.jpg) repeat-x scroll left top;
+	text-align: center;
+}
+
+#zone-user li {
+display: inline;
+text-align: right;
+
+}
+#region-user-first {
+	
+
+}
+
+#region-user-second a:active {
+}
+
+#region-user-second {
+
+}
+	
+#zone-branding-wrapper {
+	background:#182732 url(../images/wp_header_bg.jpg) repeat-x scroll left top;
+	
+}
+#zone-branding {
+	background:#22313C url(../images/header_bg.jpg) repeat-x scroll left top;
+	padding: 20px 0px 20px 0px;
+}
+#region-branding {
+
+}
+	
+#zone-menu-wrapper {
+	padding-bottom: 1px;		
+}
+
+#region-menu a:active {
+	color: blue;
+}
+
+#zone-menu-wrapper ul.menu {
+  text-align: right;
+}
+
+#zone-menu-wrapper li {
+  text-align: right;
+}
+
+#zone-menu-wrapper a {
+	text-decoration: none;
+  	text-align: right;
+  }
+
+#region-menu a:hover {
+  }
+
+#region-menu a:active {
+  
+}
+
+#zone-menu-wrapper a:active {
+	
+}
+
+#region-menu li {
+	display: inline;
+	
+}
+
+#region-menu {
+	background-color: #fff;
+	height: 2.2em;
+	line-height: 1.5em;
+	text-decoration: none;
+	padding: 0px 0px 55px 0px;
+}
+
+
+#region-menu-second {
+	background-color: #fff;
+}
+			
+	
+#zone-header-wrapper {
+background-color: #2D6286;
+
+
+}
+#zone-header {
+	background-color: #2D6286;
+	
+}
+#region-header-first {
+	padding: 25px 0 5px 0;
+}
+#region-header-second {
+}
+	
+#zone-preface-wrapper {
+	background: #010508;
+	
+}
+#zone-preface {
+	
+	}
+
+#region-preface-first img {
+	padding: 20px 0px 0px 0px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#region-preface-second img {
+	padding: 20px 0px 0px 0px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+	
+#region-preface-third img {
+	padding: 20px 0px 0px 0px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+	}
+				
+#zone-content {
+	background: #1E2832 url(../images/content_bg.jpg) repeat-x scroll left top;
+	padding-top: 20px;
+	color: white;
+}
+
+
+#breadcrumb {
+}
+
+
+#messages {
+	background-color: white;
+	color: black;
+}
+
+#region-content {
+	color: white;
+}
+
+
+
+#region-content .fieldset-wrapper  {
+	float: left;
+	display: inline;
+}
+
+
+#zone-content-wrapper {
+	background: #16202B url(../images/wp_content_bg.jpg) repeat-x scroll left top;
+}
+
+#region-content .block .content {
+	padding: 10px;
+}
+
+#region-sidebar-first {
+	background-color: #FFF;
+}
+#region-sidebar-second {
+	text-align: center;
+}
+		
+#zone-postscript-wrapper {
+	background:#0F1922;
+	color: #fff;
+}
+
+#zone-postscript h2 {
+	color: white;
+}
+
+#zone-postscript li {
+	color: white;
+}
+
+#zone-postscript a:link {
+	color: blue;
+}
+
+
+
+#zone-postscript {
+	background:#151E25;
+	padding-top: 20px;
+	color: white;
+}
+#region-postscript-first img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+	
+}
+#region-postscript-second img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+#region-postscript-third img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+#region-postscript-fourth img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+#zone-footer-wrapper {
+    background:#010508;
+    color: #fff;
+    padding-top: 20px;
+}
+
+#zone-footer {
+    }
+
+#region-footer-first {
+    }
+
+#region-footer-second {
+    
+}
+
+/*  Page info */
+
+#logo /* Wrapping link for logo */ {
+  margin: 0;
+  padding: 0;
+}
+
+#logo img {
+  vertical-align: bottom;
+  
+}
+
+#name-and-slogan /* Wrapper for website name and slogan */ {
+  float: right;
+  color: white;
+}
+
+ul.links.inline {
+  display: block; /* Let the links be inline, but the container be a block. */
+}
+
+ul.links li {
+  padding: 0 1em 0 0; /* LTR */
+}
+li.comment-add a,
+li.comment-add a.active {
+  float: right;
+  color: #17A1C8;
+}
+
+/* Begin Podcast Views CSS  */
+
+
+.view-podcasts table {
+margin:0;
+	}
+	
+.view-podcasts td {
+	vertical-align: top;
+}
+
+	
+.view-podcasts tr { 
+background:none; 
+border-bottom:1px solid #eeeeee;
+	}
+	
+.view-podcasts tr td { 
+border:none; 
+border-right:1px solid #eeeeee; 
+padding:10px 10px 10px 10px; 
+width:33%;
+	}
+	
+.view-podcasts tr.row-first td { 
+padding-top:5px;
+	}
+	
+.view-podcasts tr td.col-first { 
+padding-left:10px;
+	}
+	
+.view-podcasts tr td.col-last { 
+padding-right:10px; 
+border-right:0px;
+	}
+
+.node-podcast {
+   margin-bottom: 20px;
+}
+
+
+/*------------------------------------*\
+	NAVIGATION CSS
+\*------------------------------------*/
+/*
+ * The active item in a Drupal menu
+ */
+li a.active {
+  color: #fff;
+}
+
+/*
+ * Navigation bar
+ */
+#navigation {
+  /* overflow: hidden; /* Sometimes you want to prevent overlapping with main div. */
+}
+
+#navigation ul.links, /* Main menu and secondary menu links */
+#navigation .content ul /* Menu block links */ {
+  margin: 0;
+  padding: 0;
+  text-align: left; /* LTR */
+}
+
+#navigation ul.links li, /* A simple method to get navigation links to appear in one line. */
+#navigation .content li {
+  float: left; /* LTR */
+  padding: 0 10px 0 0; /* LTR */
+  list-style-type: none;
+  list-style-image: none;
+}
+

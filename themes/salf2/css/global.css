@@ -1,0 +1,777 @@
+
+/*--- HEADINGS ---*/
+h1{
+	font-family:  "Droid Sans", Arial, Helvetica, Geneva, sans-serif;
+  	font-size:1.9em;      /* 24px */
+  	margin-bottom:1em;  /* 24px */
+  	line-height:1;    /* 24px */
+}
+h2{
+	font-family:  "Droid Serif", Arial, Helvetica, Geneva, sans-serif;
+  	font-size:1.4em;    /* 19.5px */
+  	margin-bottom:1.3333em;    /* 24px */
+  	line-height:1.3333;      /* 24px */
+  	color: black;
+}
+h3{
+	font-family:  "Droid Sans", Arial, Helvetica, Geneva, sans-serif;
+  	font-size:1.25em;    /* 16.25 */
+  	margin-bottom:1.477em;  /* 24px */
+ 	line-height:1.477;    /* 24px */
+}	
+h4{
+	font-family:  "Droid Sans", Arial, Helvetica, Geneva, sans-serif;
+  	font-size:1.125em;    /* 14.6px */
+  	margin-bottom:1.64em;  /* 24px */
+  	line-height:1.64;    /* 24px */
+}
+h5{
+	font-family:  "Droid Sans", Arial, Helvetica, Geneva, sans-serif;
+  	font-weight:bold;
+}
+h5,
+h6{
+	font-family:  "Droid Sans", Arial, Helvetica, Geneva, sans-serif;
+  	font-size:1em;      /* 16px */
+  	margin-bottom:1.5em;  /* 24px */
+  	line-height:1.5;    /* 24px */
+}
+p, address, pre, table {
+    margin-bottom: 1.846em;
+}
+
+
+
+/* Paragraph */
+
+/* p {
+	font-family:  "Droid Sans", Arial, Helvetica, Geneva, sans-serif;
+	font-size: 1.25em;
+}
+*/
+
+/*  Ministry ds settings */
+
+.ds-2col-fluid {
+	font-size: 1.25em;
+	line-height: 1.477em;
+}
+
+
+
+
+/*  PREFACE Area   */
+
+#view-preface-blocks {
+	background-color: #e6e6e6;
+	background: none;
+}
+
+#flexslider-1 {
+	border-style: none;
+}
+
+#flexslider-2 {
+	border-style: none;
+}
+
+#flexslider-3 {
+	border-style: none;
+}
+
+#flexslider {
+	border-style: none;
+}
+
+/* Odd & Even Table Styles */
+tr.even td {
+   background-color: #e6e6e6; 
+}
+
+tr.odd td {
+   background-color: #e6e6e6;
+}
+
+td.active {
+  border-left: 1px solid #CCC;
+  border-right: 1px solid #CCC;
+  background-color: #e6e6e6;
+}
+
+tr.even td.active {
+  background-color: #e6e6e6; 
+}
+
+tr.odd td.active {
+  background-color: #e6e6e6;
+}
+
+
+.view-calendar-2 tr:hover td,
+tr.even:hover td.active,
+tr.odd:hover td.active {
+  background: #e6e6e6;
+}
+
+
+tr:hover td,
+tr.even:hover td.active,
+tr.odd:hover td.active {
+  background: #e6e6e6;
+}
+
+
+td ul.links {
+  margin-bottom: 0;
+}
+
+
+
+a:link, a:visited {
+    color: ;
+    text-decoration: none;
+}
+
+#navigation {
+	color: #e6e6e6;
+}
+
+#page {
+	background: #e6e6e6;
+	
+}
+
+#quicktabs-about_us {
+	font-size: 1.2em;
+}
+
+
+/*
+ * Main menu links
+ */
+ /*
+ #navigation .sf-menu a {
+   font-weight: bold;
+ }
+ 
+ #navigation .sf-menu {
+   float: right;
+ }
+
+/*ul#main-menu {
+  margin: 10px 0 0 0;
+  text-align: center;
+  width: 100%;
+}
+ul#main-menu li {
+  display: inline-block;
+  margin:0;
+  padding:0 1px 0 0;
+}
+ul#main-menu li a {
+  float: left;
+  padding: 3px 30px;
+  font-weight: bold;
+}
+ul#main-menu li a:hover,
+ul#main-menu li a.active:hover {
+  color: #e6e6e6;
+  background: #076782;
+}
+ul#main-menu li a.active {
+  color: #e6e6e6;
+  background: #17A1C8;
+}
+*/
+#zone-user-wrapper {
+ /*background:#182732 url(../images/wp_header_bg.jpg) repeat-x scroll left top; */
+ background-color: #19191A;
+}
+
+#zone-user {
+	/*background: #1E2832 url(../images/header_bg.jpg) repeat-x scroll left top; */
+	 background-color: #19191A;
+	text-align: center;
+}
+
+#zone-user li {
+display: inline;
+text-align: right;
+
+}
+#region-user-first {
+	color: #fff;
+	text-align: left;
+	font-size: .8em;
+
+}
+
+#region-user-second a:active {
+}
+
+#region-user-second {
+
+}
+	
+ #zone-branding-wrapper {
+	/* background:#182732 url(../images/wp_header_bg.jpg) repeat-x scroll left top; */
+	background-color: #19191A;
+	
+}
+
+#zone-branding {
+	/* background:#22313C url(../images/header_bg.jpg) repeat-x scroll left top; */
+	background-color: #19191A;
+	padding: 10px 10px 0px 10px;
+	text-align: right;
+	text-decoration: none;
+}
+
+#superfish-1 {
+	font-size: 1.1em;
+}
+
+#block-superfish-1 {
+	margin-top: 10px;
+	margin-right: 70px;
+	float: right;
+	text-decoration: none;
+}
+
+#region-branding {
+margin: 0px 10px 0px 10px;
+
+}
+	
+#zone-menu-wrapper {
+	padding-bottom: 1px;		
+}
+
+#region-menu a:active {
+	color: blue;
+}
+
+#zone-menu-wrapper ul.menu {
+  text-align: right;
+  font-size: 1.1em;
+}
+
+#zone-menu-wrapper li {
+  text-align: right;
+}
+
+#zone-menu-wrapper a {
+	text-decoration: none;
+  	text-align: right;
+  }
+
+#region-menu a:hover {
+  }
+
+#region-menu a:active {
+  
+}
+
+#zone-menu-wrapper a:active {
+	
+}
+
+#region-menu li {
+	display: inline;
+	
+}
+
+#region-menu {
+	background-color: #e6e6e6;
+	height: 2.2em;
+	line-height: 1.5em;
+	text-decoration: none;
+	padding: 0px 0px 55px 0px;
+}
+
+
+#region-menu-second {
+	background-color: #e6e6e6;
+}
+			
+	
+#zone-header-wrapper {
+background-color: #e6e6e6;
+
+
+}
+#zone-header {
+	background-color: #e6e6e6;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+#region-header-second {
+	
+	min-height: 1px;
+}
+#region-header-first {
+	padding: 25px 0px 5px 0px;
+		
+}
+#region-header-second {
+}
+	
+#zone-preface-wrapper {
+	background: #e6e6e6;
+	
+}
+#zone-preface {
+	background: #e6e6e6;
+	}
+	
+#flexslider-1 {
+	background-color: #e6e6e6;
+}
+
+#flexslider-2 {
+	background-color: #e6e6e6;
+}
+
+
+#flexslider-3 {
+	background-color: #e6e6e6;
+}
+
+#flexslider-4 {
+	background-color: #19191A;
+}
+
+#flexslider-5 {
+	background-color: #19191A;
+	text-align: center;
+}
+
+#flexslider-6 {
+	background-color: #19191A;
+}
+
+.flexslider {
+	background: none repeat scroll 0 0 #e6e6e6;
+	border: 0px solid #e6e6e6; 
+	border-radius: 5px 5px 5px 5px; 
+	position: relative;
+	/*-moz-box-shadow: 3px 3px 1px #e6e5e5;
+	-webkit-box-shadow: 3px 3px 1px #e6e5e5;
+	box-shadow: 3px 3px 1px #e6e5e5; */
+	
+}
+
+#flexslider_views_slideshow_large_banner-block {
+	
+	border: 1px solid #000;
+	border-radius: 1px;
+	/*-moz-box-shadow: 5px 5px 1px #474040;
+	-webkit-box-shadow: 5px 5px 1px #474040;
+	box-shadow: 5px 5px 1px #474040; */
+	-webkit-box-shadow: 7px 7px 5px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    7px 7px 5px rgba(50, 50, 50, 0.75);
+	box-shadow:         7px 7px 5px rgba(50, 50, 50, 0.75);
+	
+	
+} 
+
+.flex-caption {
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3);
+	   bottom: 0;
+	   color: #e6e6e6e6e6e6;
+	   font-size: 14px;
+	   line-height: 18px;
+	   margin-left: 3px;
+	   padding: 2%;
+	   position: absolute;
+	   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+	   width: 93%;
+	   left: 5px;
+   }
+
+#region-preface-first img {
+	padding: 20px 0px 20px 0px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	/* border: 1px solid #6b9033;
+	border-radius: 5px;
+	-moz-box-shadow: 1px 1px 1px #6b9033;
+	-webkit-box-shadow: 1px 1px 1px #6b9033;
+	box-shadow: 1px 1px 1px #6b9033;
+	*/
+	/* background:
+	radial-gradient(black 15%, transparent 16%) 0 0,
+	radial-gradient(black 15%, transparent 16%) 8px 8px,
+	radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+	radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+	background-color:#282828;
+	background-size:16px 16px; */
+	
+}
+#region-preface-second img {
+	padding: 20px 0px 20px 0px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	/* border: 1px solid #1ea4ca;
+	border-radius: 5px;
+	-moz-box-shadow: 1px 1px 1px #1ea4ca;
+	-webkit-box-shadow: 1px 1px 1px #1ea4ca;
+	box-shadow: 1px 1px 1px #1ea4ca; */
+	
+	
+}
+	
+#region-preface-third img {
+	padding: 20px 0px 20px 0px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	/*border: 1px solid #6b9033;
+	border-radius: 5px;
+	-moz-box-shadow: 1px 1px 1px #6b9033;
+	-webkit-box-shadow: 1px 1px 1px #6b9033;
+	box-shadow: 1px 1px 1px #6b9033;
+	*/
+	
+	}
+				
+#zone-content {
+	/* background: #1E2832 url(../images/content_bg.jpg) repeat-x scroll left top;*/
+	padding-top: 20px;
+	color: #e6e6e6;
+}
+
+
+#breadcrumb {
+}
+
+
+#messages {
+	background-color: white;
+	color: black;
+}
+
+#region-content {
+	color: #000;
+}
+
+
+
+#region-content .fieldset-wrapper  {
+	float: left;
+	display: inline;
+}
+
+
+#zone-content-wrapper {
+	/* background: #16202B url(../images/wp_content_bg.jpg) repeat-x scroll left top; */
+	background-color: #e6e6e6;
+}
+
+#region-content .block .content {
+	padding: 10px;
+}
+
+#region-sidebar-first {
+	background-color: #e6e6e6;
+}
+#region-sidebar-second {
+	text-align: center;
+}
+
+
+/*  Blog Posts */
+
+#view-blog-posts {
+	
+}
+
+
+
+
+/* Quicktabs styling  */
+
+#quicktabs-container-ministries p {
+	margin: 20px 20px 0px 0px;
+	
+}
+
+#quicktabs-container-ministries img {
+	
+	
+}
+
+.field-name-field-ministry-image {
+	background-position: center;
+}
+
+#quicktabs-container-about_us p {
+	margin: 20px 20px 0px 0px;
+	
+}
+
+		
+#zone-postscript-wrapper {
+	background:#19191A;
+	color: #e6e6e6;
+}
+
+#zone-postscript h2 {
+	color: white;
+}
+
+#zone-postscript li {
+	color: white;
+}
+
+#zone-postscript a:link {
+	color: blue;
+}
+
+
+
+#zone-postscript {
+	background:#19191A;
+	padding-top: 20px;
+	color: white;
+}
+
+#zone-postscript .flexslider-content {
+	background-color: #19191A;
+}
+
+#region-postscript-first img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	
+	
+}
+#region-postscript-second img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+#region-postscript-third img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#region-postscript-second p {
+	
+}
+
+/*
+#region-postscript-second {
+	margin: 10px 0px 0px 0px;
+	
+	
+}
+*/
+#region-postscript-second h2 {
+	font-family: "Droid Serif", 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif;
+	text-transform: uppercase;
+	line-height: 1em;
+}
+
+#region-postscript-fourth img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+   
+}
+
+#zone-footer-wrapper {
+    background:#19191A;
+    color: #e6e6e6;
+    padding-top: 20px;
+}
+
+#zone-footer a:hover {
+	color: #fafafa;
+    }
+
+#region-footer-first {
+	background-color: #19191A;
+    }
+
+#region-footer-second {
+	
+	background-color: #19191A;
+    
+}
+
+/*  Page info */
+
+#logo /* Wrapping link for logo */ {
+  margin: 0;
+  padding: 0;
+}
+
+#logo img {
+  vertical-align: bottom;
+  
+}
+
+
+#name-and-slogan /* Wrapper for website name and slogan */ {
+  float: right;
+  color: white;
+}
+
+ul.links.inline {
+  display: block; /* Let the links be inline, but the container be a block. */
+}
+
+ul.links li {
+  padding: 0 1em 0 0; /* LTR */
+}
+li.comment-add a,
+li.comment-add a.active {
+  float: right;
+  color: #17A1C8;
+}
+
+/* Begin Testimonies view CSS  */
+
+
+.view-testimonies h2 {
+	color: #158FFA;
+}
+
+/*  Begin Thought for the day view CSS        */
+
+
+.views-field-field-line-separator-image img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 25px;
+		
+}
+
+.view-word-for-today {
+	text-align: left;
+}
+
+.view-word-for-today h2 {
+	color: #158FFA;
+}
+
+/* Begin Podcast Views CSS  */
+
+
+.node-podcast .field-name-title {
+	color: #158FFA;
+}
+
+
+.node-podcast {
+	line-height: 1.7em;
+	font-size: 1.3em;
+}
+.block-system-main h4 {
+	font-size: 1.5em;
+}
+
+
+.view-podcasts {
+	background-color: #e6e6e6;
+	
+}
+
+.view-podcasts table {
+	margin:0;
+	}
+	
+
+.view-podcasts td {
+	vertical-align: middle;
+	border-bottom:2px solid #000;
+	text-align: center;
+}
+
+/*.views-field {
+	text-align: center;
+}
+
+*/	
+.view-podcasts tr { 
+background: #e6e6e6; 
+border-bottom:1px solid #19191A;
+text-align: justify;
+}
+	
+.views-podcasts thead {
+	background-color: #fafafa;
+	color: #000000;
+	font-size: 1.1em;
+}	
+	
+.view-podcasts tr td { 
+border:none; 
+border-right:1px solid #19191A; 
+padding:10px 10px 10px 10px; 
+width:33%;
+	}
+	
+.view-podcasts tr.row-first td { 
+padding-top:5px;
+	}
+	
+.view-podcasts tr td.col-first { 
+padding-left:10px;
+	}
+	
+.view-podcasts tr td.col-last { 
+padding-right:10px; 
+border-right:0px;
+	}
+
+.node-podcast {
+   margin-bottom: 20px;
+}
+
+
+/*------------------------------------*\
+	NAVIGATION CSS
+\*------------------------------------*/
+/*
+ * The active item in a Drupal menu
+ */
+li a.active {
+  color: blue;
+}
+
+/*
+ * Navigation bar
+ */
+#navigation {
+  /* overflow: hidden; /* Sometimes you want to prevent overlapping with main div. */
+}
+
+#navigation ul.links, /* Main menu and secondary menu links */
+#navigation .content ul /* Menu block links */ {
+  margin: 0;
+  padding: 0;
+  text-align: right; /* LTR */
+}
+
+#navigation ul.links li, /* A simple method to get navigation links to appear in one line. */
+#navigation .content li {
+  float: left; /* LTR */
+  padding: 0 10px 0 0; /* LTR */
+  list-style-type: none;
+  list-style-image: none;
+}
+

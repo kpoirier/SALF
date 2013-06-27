@@ -1,0 +1,13 @@
+/* This file will hold styles that are loaded using the same media query as the wide grid. */
+
+#logo /* Wrapping link for logo */ {
+  margin-bottom: 20px;
+  margin-top: 50px;
+  padding: 0;
+ 
+}
+
+#logo img {
+  vertical-align: baseline;
+  
+}
