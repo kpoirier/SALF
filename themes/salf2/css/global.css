@@ -57,7 +57,26 @@ p, address, pre, table {
 	line-height: 1.477em;
 }
 
+/* Personal Prophetic Audio  */
 
+.field-name-field-podcast-date {
+	margin-bottom: 15px;
+}
+
+.field-name-field-audio-notes {
+	margin-top: 15px;
+	margin-bottom: 40px;
+}
+
+.node-personal-prophetic-audio  {
+	font-size: 1.25em;
+	line-height: 1.75em;
+}
+
+.view-personal-prophetic-audio {
+	font-size: 1.25em;
+	margin-bottom: 50px;
+}
 
 
 /*  PREFACE Area   */
