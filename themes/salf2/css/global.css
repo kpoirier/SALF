@@ -60,11 +60,11 @@ p, address, pre, table {
 /* Personal Prophetic Audio  */
 
 .field-name-field-podcast-date {
-	margin-bottom: 15px;
+	margin-bottom: 50px;
 }
 
 .field-name-field-audio-notes {
-	margin-top: 15px;
+	margin-top: 35px;
 	margin-bottom: 40px;
 }
 
@@ -78,6 +78,19 @@ p, address, pre, table {
 	margin-bottom: 50px;
 }
 
+/* Podcast node  */
+
+.field-name-field-podcast-category {
+	margin-bottom: 15px;
+}
+
+.field-name-field-podcast-audio {
+	margin-bottom: 25px;
+}
+
+.field-name-field-podcast-notes {
+	margin-bottom: 50px;
+}
 
 /*  PREFACE Area   */
 
